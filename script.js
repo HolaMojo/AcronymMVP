@@ -25,7 +25,7 @@ function search() {
     } else {
         filteredAbbreviations.forEach(abbr => {
             const resultElement = document.createElement('div');
-            resultElement.innerHTML = `<strong>${abbr.abbreviation}</strong>: ${abbr.meaning}: ${abbr.context}`;
+            resultElement.innerHTML = `<strong>${abbr.abbreviation}</strong> </br> ${abbr.meaning} </br> </br> ${abbr.context}`;
             resultsContainer.appendChild(resultElement);
         });
     }
