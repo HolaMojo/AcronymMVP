@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Abbreviation Finder for WOG terms</title>
+    <link rel="stylesheet" href="SimpleAF.css"> 
+</head>
+
+<body>
+    <div class="welcome-container">
+        <div class="logo">
+          <img src="logo.png" alt="Web App logo">
+        </div>
+
+        <div class="header">
+        <h1>Simple AF</h1>
+        </div>
+
+        <div class="subheading">
+        <h3>Submit a new abbreviation below</h3>
+        </div>
+      
+        <!-- submit a new abbreviation -->
+        <div class="form-container">
+
+            <form method="post">
+
+              <div class="row">
+              <div class="col-15">
+              <label for="Abbreviation">Abbreviation</label>
+              </div>
+              </div>
+            
+              <div class="col-65">
+              <input type="string" name="abbreviation" placeholder="Enter your abbreviation in CAPITAL LETTERS" required >
+              </div>
+
+              <div class="row">
+              <div class="col-25">
+              <label for="">Meaning</label>
+              </div>
+              </div>
+
+              <div class="col-75">
+              <input type="string" name="meaning" placeholder="Enter meaning" required >
+              </div>
+
+              <div class="row">
+              <div class="col-25">
+              <label for="keywords">Keyword</label>
+              </div>
+              </div>
+                
+              <div class="col-75">
+              <input type="string" name="keyword" placeholder="Enter keywords" required >
+              </div>
+
+              <div class="row">
+              <div class="col-25">
+              <label for="context">Context</label>
+              </div>
+              </div>
+
+              <div class="col-75">
+              <textarea id="context" name="context" placeholder="Any background on the abbreviation?" style="height:200px"></textarea>
+              </div>
+
+              <br>
+
+              <div class="row">
+              <input type="submit" value="Submit">
+              </div>
+
+              </form>
+            </div>
+            
+              
+
+         <!-- Back to homepage -->
+         <div class="cancel-form">
+          <a href="home.html">Take me back to the beginning </a>
+
+        </div>
+      </div>
+    </div>
+</body>
+</html>
