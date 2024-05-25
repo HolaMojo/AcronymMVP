@@ -101,6 +101,20 @@ p {
   margin-bottom: 10px; /* add bottom margin to create space */
 }
 
+.resultElement {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+}
+
+.resultElement strong {
+  font-weight: bold;
+}
+
+.resultElement p {
+  font-weight: normal;
+}
+
 footer {
   position: fixed;
   left: 0;
