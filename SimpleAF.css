@@ -33,8 +33,8 @@ p {
 }
 
 .logo img {
-  max-width: 100px; /* size of logo */
-  height: 100px;
+  max-width: 300px; /* size of logo */
+  height: 130px;
   display: block;
   margin: 0 auto; /* center horizontally to page */
   margin-bottom: 5px; /* add bottom margin to create space */
