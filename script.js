@@ -1,9 +1,10 @@
 const abbreviations = [
     { abbreviation: "AOR", meaning: "Approval of Requirements", context: ["A document that requests approval from suitable approving authorities for a specific amount of funding governed by specific requirments."] },
     { abbreviation: "TOS", meaning: "Theory of Success", context: ["A framework that hypothesises the key factors that will make a programme or project successful (core ingredients) and determines the yardstick by which to measure success."] }, 
+    { abbreviation: "AOP", meaning: "Approval of Programme", context: ["A document that is written after funding has been secured by an AOR paper that requests for funding for a specific programme that draws down from the funds detailed in the AOR."] }, 
 ];
 
-console.log(abbreviations)
+// console.log(abbreviations)
 
 // To perform search
 function search() {
@@ -19,7 +20,7 @@ function search() {
                abbr.context.some(context => context.toLowerCase().includes(searchInput));
     });
 
-    // To display results
+    // To display results, appendChild allows resultsElement to live in resultsContainer
     if (filteredAbbreviations.length === 0) {
         resultsContainer.innerHTML = 'No results found.';
     } else {

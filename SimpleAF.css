@@ -144,7 +144,7 @@ ul {
 }
 
 form li + li {
-  margin-top: 1em;
+  margin-top: 1em;  /* Ensure that there are spaces when one list item follows another */
 }
 
 label {
