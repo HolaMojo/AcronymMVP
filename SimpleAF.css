@@ -116,12 +116,13 @@ p {
 }
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 10px;
   width: 100%;
   color: #000;
   padding: 20px;
+  margin-top: 100px;
   text-align: center;
   font-size: 0.75em;
   box-sizing: border-box;
