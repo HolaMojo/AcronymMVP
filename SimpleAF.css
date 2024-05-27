@@ -126,7 +126,7 @@ footer {
   text-align: center;
   font-size: 0.75em;
   box-sizing: border-box;
-  /* z-index: 999; /* Ensure the footer is above other elements */
+  z-index: 999; /* Ensure the footer is above other elements */
 }
 
 form {
