@@ -124,7 +124,8 @@ footer {
   padding: 20px;
   text-align: center;
   font-size: 0.75em;
-  z-index: 999; /* Ensure the footer is above other elements */
+  box-sizing: border-box;
+  /* z-index: 999; /* Ensure the footer is above other elements */
 }
 
 form {
